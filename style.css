@@ -1,0 +1,102 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.calculator input,
+.button   {
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    position: fixed;
+    background-image: url(Images/m.gif);
+    /*background-image: url(Images/goku1.gif);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+
+  .calculator .style {
+    float: left;
+    margin-left: 100px;
+    border-radius: 5px;
+  }
+
+  .button  {
+    /*background-color: none;
+    background-image: url(Images/m.gif);
+    background-size: 150px;*/
+    background-color: transparent;
+    padding: 20px;
+    color: maroon; 
+    border-radius: 5px; 
+    font-size: 22px; 
+    cursor: pointer;
+    text-shadow: 2px 2px white;
+  }
+
+  .calculator input   {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: right;
+    font-size: 40px;
+    border-radius: 0;
+  }
+
+
+  .calculator-buttons {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .calculator-buttons {
+    grid-gap: 15px;
+  }
+
+
+.Zero,
+.clear   {
+  grid-column: span 3;
+}
+
+
+.clear   {
+  background: maroon;
+  color: white;
+  text-shadow: none;
+}
+
+.Equals {
+    background: rgb(4, 4, 73);
+    color: white;
+    text-shadow: none;
+  }
+
+
+.textview{
+    width: 400px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    background-color: rgb(255, 0, 5);
+    }	
+
+.gif {
+  margin-top: 50px;
+  margin-left: 125px;
+  width: 800px;
+  height: 800px;
+  background: transparent;
+}
+
